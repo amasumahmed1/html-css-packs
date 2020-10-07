@@ -1,0 +1,143 @@
+/* google fonts start*/
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,700i,800,900&display=swap');
+
+
+
+ /* local fonts */
+ 
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
+        url('fonts/glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
+        url('fonts/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+*{
+    text-decoration: none;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Muli',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'glacial_indifferencebold';
+    font-weight: 700;
+    color: #2e2e2e;
+}
+p{
+    color: #838383;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Muli',sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn {
+    color: #fff;
+    background: #ee3364;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0;
+    padding: 20px 35px;
+    line-height: 1;
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+}
+.f-right{
+    float: right;
+}
+.f-left{
+    float: left;
+}
+
+.fix{
+    overflow: hidden;
+}
+
+.theme-bg{
+    background-color: #f3f3f3;
+}
+.gray-bg{
+    background-color: #ddd;
+}
+.white-bg{
+    background-color: #fff;
+}
+.black-bg{
+    background-color: #000;
+}
+
+
+.gray-color{
+    color: #ddd;
+}
+.white-color{
+    color: #fff;
+}
+.black-color{
+    color: #000;
+}
+
+/* section-title */
+
+.section-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ee3364;
+    font-family: 'glacial_indifferencebold';
+}
+.section-title h2 {
+    font-size: 65px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+
+
+
+/* header-area */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
